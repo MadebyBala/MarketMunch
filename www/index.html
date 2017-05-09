@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD_iFsNeNE2pqOUE86VFrvecTZQqyEb7ic&libraries=places"></script>
+  <script type="text/javascript" src="cordova.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>  
+  <title>MarketMunch</title>
+</head>
+<body>
+  <div id="main"></div>
+  <script type="text/javascript">
+    var mmApiEndPointPrefix = "http://52.16.245.194/api/public/trader/";
+    //var Nativealert = alert;
+
+    var deviceType = (navigator.userAgent.match(/iPad/i))  == "iPad" ? "iPad" : (navigator.userAgent.match(/iPhone/i))  == "iPhone" ? "iPhone" : (navigator.userAgent.match(/Android/i)) == "Android" ? "Android" : (navigator.userAgent.match(/BlackBerry/i)) == "BlackBerry" ? "BlackBerry" : "null";
+    localStorage.setItem('deviceType',deviceType);
+       
+    localStorage.setItem('deviceType', deviceType);
+
+  </script>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script src="build/bundle.js"></script>
+  
+</body>
+</html>
+
+
+  
